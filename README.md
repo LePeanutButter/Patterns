@@ -21,29 +21,29 @@ En el siguiente ejemplo, se agregó 'Pepito' como argumento.
 el programador únicamente tendrá que añadir el tipo de figura en RegularShapeType y la figura correspondiente en
 ShapeFactory. Las figuras que retorna dependen de la interfaz Shape.
 ![Screenshot2025-02-02120051](images/Screenshot2025-02-02120051.png)
-5. Ejecute múltiples veces la clase ShapeMain, usando el plugin exec de maven con los siguientes parámetros y verifique
-la salida en consola para cada una:
+5. Ejecuté múltiples veces la clase ShapeMain, usando el plugin exec de Maven con los siguientes parámetros y
+verifiqué la salida en consola para cada uno:
 
-Sin parámetros: No.
-La aplicación necesita un parámetro para reconocer la figura y sin él no se ejecuta correctamente.
+- Sin parámetros: No.
+La aplicación necesita un parámetro para reconocer la figura, y sin él no se ejecuta correctamente.
 
-Parámetro "qwerty": No.
-con "qwerty" no funciona ya que ninguna figura esta definida de esta manera por lo cual no lo válida y en la terminal 
-no lo ejecuta.
+- Parámetro "qwerty": No.
+Con "qwerty" no funciona, ya que ninguna figura está definida de esta manera, por lo cual no lo valida y
+no lo ejecuta en la terminal.
 
-Parámetro "pentágono": Sí.
-"pentagon" es reconocido como una figura válida en la aplicacion y al momento de la ejecución 
-en la terminal muestra la salida esperada.
+- Parámetro "pentágono": Sí.
+"pentagon" ees reconocido como una figura válida en la aplicación y, al momento de la ejecución en la
+terminal, muestra la salida esperada.
 
-Parámetro "Hexágono": No.
-La aplicación es incompatible a la hora de usar mayúsculas/minúsculas que no esten definidas ya que esta echa para esperar parametros espesificos
-como "hexagon" en minúsculas por lo tanto al escribir "Hexagon" en mayusculas no se procesa correctamente y en la salida
-de la consola no lo ejecuta.
+- Parámetro "Hexágono": No.
+"hexagon" es reconocido como una figura válida en la aplicación y, al momento de la ejecución en la
+terminal, muestra la salida esperada.
 
-¿Cuál(es) de las anteriores instrucciones se ejecutan y funcionan correctamente y por qué?
+6. ¿Cuál(es) de las anteriores instrucciones se ejecutan y funcionan correctamente y por qué?
 
-la unica que se ejecuto y funciono correctamente fue pentagono ya que es un parametro que esta definido dentro de la 
-propia aplicacion las demas no funcionaron por distintos factores como las mayúsculas/minúsculas o que no tiene parametros
+Las únicas que se ejecutaron y funcionaron correctamente fueron "pentagon" y "hexagon", ya que son parámetros
+que están definidos dentro de la propia aplicación. Las demás no funcionaron por distintos factores, como la mayúscula,
+caracteres o los parámetros incorrectos.
 
 ## Integrantes
 - Santiago Botero Garcia - [LePeanutButter](https://github.com/LePeanutButter)
